@@ -2,6 +2,12 @@
 
 A local-first, mobile-adaptive 3D endless tower defense game. Establish a mining colony on a procedurally generated battlefield, manipulate biological enemies with heat and vibration, and survive successive boss cycles.
 
+## Play online
+
+https://jackbauertv24-droid.github.io/breach-command/
+
+GitHub Actions builds and deploys the game to GitHub Pages on each push to `main`.
+
 ## Run
 
 Requires Node.js 20.19+ or 22.12+.
