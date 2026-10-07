@@ -71,3 +71,7 @@ The procedural generator protects the starting area and distributes map features
 `src/sim.js`: engine-independent simulation. `src/pathfinding.js`: deterministic terrain navigation. `src/data.js`: roster/balance. `src/assets.js`: models/materials. `src/main.js`: rendering, input, UI/audio. `src/style.css`: adaptive HUD.
 
 To repeat browser QA, run `npm run build`, start `npx vite preview --port 5174` in another terminal, install Chromium with `npx playwright install chromium`, then run `node scripts/browser-qa.js`.
+
+## Replacement asset production briefs
+
+See [asset-briefs/README.md](asset-briefs/README.md) for individual concepts and instructions for every current model and shared production package, including the art direction, delivery contract, quality gate and integration plan. Replacement files can be delivered incrementally; the current renderer needs a GLB/animation adapter before new deliveries become visible in the game.
